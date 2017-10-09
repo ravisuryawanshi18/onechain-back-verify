@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.network "private_network", ip: "55.55.55.5"
 
-  config.vm.synced_folder "C:/onechain-back-verify", "/vagrant", type: "virtualbox"
+  config.vm.synced_folder "E:/views/onechain-back-verify", "/vagrant", type: "virtualbox"
 
   config.vm.provider "virtualbox" do |vb|
      vb.memory = "2048"
